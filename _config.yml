@@ -1,0 +1,84 @@
+site: yucellmustafa
+title: yucellmustafa
+greetings: Merhaba 👋
+description: Blog
+lang: tr-TR
+timezone: Europe/Istanbul
+repo: https://github.com/yucellmustafa/yucellmustafa.github.io # site repo [optional]
+data-theme: dark # default theme "dark" | "light"
+
+author:
+  name: Mustafa Yucel
+  bio: sadece minimalist, kişisel bir blog
+  userpicture: https://avatars.githubusercontent.com/u/49123562?v=4
+  username: yucellmustafa
+  github: yucellmustafa
+  email: yucellmustafa@tuta.io # email adress
+
+# Font Settings
+googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
+
+# URL settings
+url: "https://yucellmustafa.github.io" # Domain Name of host. [username].github.io for github pages
+baseurl: "" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+permalink: pretty
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+
+exclude:
+  - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-relative-links
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+relative_links:
+  enabled:     true
+  collections: false
+
+
