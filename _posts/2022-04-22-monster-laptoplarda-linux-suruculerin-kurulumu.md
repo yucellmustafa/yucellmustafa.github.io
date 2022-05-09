@@ -5,6 +5,7 @@ description: Tuxedo Computers tarafından geliştirilen ve Monster laptoplarda d
 summary: Tuxedo Computers tarafından geliştirilen ve Monster laptoplarda da kullanılabilen Control Center ve sürücülerin linux distroları için kurulumu
 tags: linux
 date: 2022-04-22 07:50
+comments: true
 minute: 5
 ---
 
