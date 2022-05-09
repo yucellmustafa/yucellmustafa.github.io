@@ -6,6 +6,7 @@ lang: tr-TR
 timezone: Europe/Istanbul
 repo: https://github.com/yucellmustafa/yucellmustafa.github.io # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
+discus-identifier: yucellmustafa
 
 author:
   name: Mustafa Yucel
