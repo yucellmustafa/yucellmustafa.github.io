@@ -9,7 +9,7 @@ comments: true
 minute: 5
 ---
 
-Monster bilgisayarlarda Linux tarafında klavye aydınlatması ve fon kontroller olmuyordu. Control Center'da yoktu aynı zamanda.
+Monster bilgisayarlarda Linux tarafında klavye aydınlatması ve fan kontroller olmuyordu. Control Center'da yoktu aynı zamanda.
 
 Bilindiği gibi Monster bilgisayarları Clevo markası tarafından yapılıyor. Bu yüzden dünyada farklı markalarda Monster ile aynı bilgisayarları kullanıyor. Linux tarafına destek veren Clevo laptopları kullanan Tuxedo Computer Linux için driver ve Control Center programı yazmış.
 
