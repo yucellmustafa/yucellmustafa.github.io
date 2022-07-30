@@ -13,16 +13,12 @@ Bildiğimiz üzere çoğu telefonda gereksiz birçok silinemeyen uygulama (Googl
 
 Bilgisayar ile gereksiz uygulamaları sileceğiz. Bunun için **Android Debugging Bridge (ADB)** driverı kullanacağız. 
 
- **Not:** ADB driver'ı bilgisayarsız (local) olarak kullanmanın yolu da var ama denemedim. Google Play'den [LADB - Local ADB Shell](https://play.google.com/store/apps/details?id=com.draco.ladb) programını kullanarak deneyebilirsiniz. (Geliştirici seçeneklerden wifi debug açmanız gerekiyor)
+**Not:** ADB driver'ı bilgisayarsız (local) olarak kullanmanın yolu da var ama denemedim. Google Play'den [LADB - Local ADB Shell](https://play.google.com/store/apps/details?id=com.draco.ladb) programını kullanarak deneyebilirsiniz. (Geliştirici seçeneklerden wifi debug açmanız gerekiyor)
 
 Şimdi bilgisayar için ADB driver kurulumunu Linux, MacOS ve Windows için anlatacağım. 
 
 ## ADB Driver Kurulumu
-
 ### Linux 
-
-#### Ubuntu
-
 Repoları güncelleyelim ve ADB driver kuralım:
 
 Ubuntu
@@ -41,7 +37,6 @@ sudo pacman -Syu android-tools
 ```
 
 ### MacOS
-
 Homebrew kuralım:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -53,7 +48,6 @@ brew install android-platform-tools
 ```
 
 ### Windows
-
 ADB minimal portable olarak [indirmek için tıkla](https://androidfilehost.com/?fid=962187416754459552)
 
 İndirdigimiz dosyayı herhangi bir dizine çıkartalım.
@@ -61,7 +55,6 @@ ADB minimal portable olarak [indirmek için tıkla](https://androidfilehost.com/
 Daha sonra **adb.exe** olan klasörde herhangi bir yere "shift + mouse sağ tık" yapalım. Açılan pencereden 'Komut Pencersini Burada Aç' benzeri buton çıkacak ve ona tıklayalım. 
 
 ## USB Debug Modunu Aktif Etme
-
 İnternette aratarak telefonunuzun geliştirici seçeneklerini aktif ediniz ve Geliştirici Seçeneklerden **USB Hata Ayıklama** modunu aktif edelim. 
 
 Telefonu bilgisayara bağladıktan sonra telefon üzerinden Bilgisayara Erişim İznini verelim.
@@ -69,7 +62,6 @@ Telefonu bilgisayara bağladıktan sonra telefon üzerinden Bilgisayara Erişim 
 Eğer "Yanlızca Şarj" seçeneğinde bilgisayar telefonu görmüyorsa modları değiştirmeyi deneyin.
 
 ## ADB Shell Kullanım
-
 Telefonu ADB Shell üzerinden kontrol edelim.
 ```
 adb devices
