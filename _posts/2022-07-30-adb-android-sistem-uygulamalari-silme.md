@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ADB ile Android Sistem Uygulamalarını Silme Rootsuz
+title: ADB ile Android Sistem Uygulamalarını Silme
 description: Android telefonlarda yüklü gelen ve silinemeyen gereksiz uygulamaların bilgisayar aracılığıyla silinmesi
 summary: Android telefonlarda yüklü gelen ve silinemeyen gereksiz uygulamaların bilgisayar aracılığıyla silinmesi
 tags: android
@@ -23,32 +23,34 @@ Bilgisayar ile gereksiz uygulamaları sileceğiz. Bunun için **Android Debuggin
 
 #### Ubuntu
 
-Repoları güncelleyelim:
-```sudo apt update && sudo apt upgrade```
-
-ADB Driver kuralım:
-```sudo apt install android-tools-adb```
-
-#### Fedora
-
-Repoları güncelleyelim:
-```sudo dnf update && sudo dnf upgrade```
-
-ADB Driver kuralım:
-```sudo dnf install android-tools-adb```
-
-#### Arch
-
 Repoları güncelleyelim ve ADB driver kuralım:
-```sudo pacman -Syu android-tools```
+
+Ubuntu
+```
+sudo apt update && sudo apt upgrade && sudo apt install android-tools-adb
+```
+
+Fedora
+```
+sudo dnf update && sudo dnf upgrade && sudo dnf install android-tools
+```
+
+Arch
+```
+sudo pacman -Syu android-tools
+```
 
 ### MacOS
 
 Homebrew kuralım:
-```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
 
 ADB Driver kuralım:
-```brew install android-platform-tools```
+```
+brew install android-platform-tools
+```
 
 ### Windows
 
@@ -56,7 +58,7 @@ ADB minimal portable olarak [indirmek için tıkla](https://androidfilehost.com/
 
 İndirdigimiz dosyayı herhangi bir dizine çıkartalım.
 
-Daha sonra **adb.exe*** olan klasörde herhangi bir yere "shift + mouse sağ tık" yapalım. Açılan pencereden 'Komut Pencersini Burada Aç' benzeri buton çıkacak ve ona tıklayalım. 
+Daha sonra **adb.exe** olan klasörde herhangi bir yere "shift + mouse sağ tık" yapalım. Açılan pencereden 'Komut Pencersini Burada Aç' benzeri buton çıkacak ve ona tıklayalım. 
 
 ## USB Debug Modunu Aktif Etme
 
@@ -69,18 +71,26 @@ Eğer "Yanlızca Şarj" seçeneğinde bilgisayar telefonu görmüyorsa modları 
 ## ADB Shell Kullanım
 
 Telefonu ADB Shell üzerinden kontrol edelim.
-```adb devices```
+```
+adb devices
+```
 
 Komutu girdikten sonra ID adresi ile birlikte bir cihaz görünmesi gerekiyor. 
 
 Daha sonra shell'i başlatalım.
-```adb shell```
+```
+adb shell
+```
 
 Telefonda kurulu olan paketleri listeleyelim.
-```pm list packages```
+```
+pm list packages
+```
 
 Paket araması yapmak.
-``` pm list packages | grep google```
+```
+pm list packages | grep google
+```
 
 Google kelimesi geçen paketleri gösterir. 
 
@@ -88,10 +98,14 @@ Google kelimesi geçen paketleri gösterir.
 
 
 İstediğimiz uygulamayı silelim.
-```pm uninstall -k --user 0 package-name```
+```
+pm uninstall -k --user 0 package-name
+```
 
 Örneğin Google uygulamasını silelim:
-```pm uninstall -k --user 0 com.google.android.googlequicksearchbox```
+```
+pm uninstall -k --user 0 com.google.android.googlequicksearchbox
+```
 
 Success yazısını görmüşseniz kaldırma başarılıdır :)
 
