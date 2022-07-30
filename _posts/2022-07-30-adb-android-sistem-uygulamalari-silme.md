@@ -17,11 +17,11 @@ Bilgisayar ile gereksiz uygulamaları sileceğiz. Bunun için **Android Debuggin
 
 Şimdi bilgisayar için ADB driver kurulumunu Linux, MacOS ve Windows için anlatacağım. 
 
-##ADB Driver Kurulumu
+## ADB Driver Kurulumu
 
-###Linux 
+### Linux 
 
-####Ubuntu
+#### Ubuntu
 
 Repoları güncelleyelim:
 ```sudo apt update && sudo apt upgrade```
@@ -29,7 +29,7 @@ Repoları güncelleyelim:
 ADB Driver kuralım:
 ```sudo apt install android-tools-adb```
 
-####Fedora
+#### Fedora
 
 Repoları güncelleyelim:
 ```sudo dnf update && sudo dnf upgrade```
@@ -37,12 +37,12 @@ Repoları güncelleyelim:
 ADB Driver kuralım:
 ```sudo dnf install android-tools-adb```
 
-####Arch
+#### Arch
 
 Repoları güncelleyelim ve ADB driver kuralım:
 ```sudo pacman -Syu android-tools```
 
-###MacOS
+### MacOS
 
 Homebrew kuralım:
 ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
@@ -50,7 +50,7 @@ Homebrew kuralım:
 ADB Driver kuralım:
 ```brew install android-platform-tools```
 
-###Windows
+### Windows
 
 ADB minimal portable olarak [indirmek için tıkla](https://androidfilehost.com/?fid=962187416754459552)
 
@@ -58,7 +58,7 @@ ADB minimal portable olarak [indirmek için tıkla](https://androidfilehost.com/
 
 Daha sonra **adb.exe*** olan klasörde herhangi bir yere "shift + mouse sağ tık" yapalım. Açılan pencereden 'Komut Pencersini Burada Aç' benzeri buton çıkacak ve ona tıklayalım. 
 
-##USB Debug Modunu Aktif Etme
+## USB Debug Modunu Aktif Etme
 
 İnternette aratarak telefonunuzun geliştirici seçeneklerini aktif ediniz ve Geliştirici Seçeneklerden **USB Hata Ayıklama** modunu aktif edelim. 
 
@@ -66,7 +66,7 @@ Telefonu bilgisayara bağladıktan sonra telefon üzerinden Bilgisayara Erişim 
 
 Eğer "Yanlızca Şarj" seçeneğinde bilgisayar telefonu görmüyorsa modları değiştirmeyi deneyin.
 
-##ADB Shell Kullanım
+## ADB Shell Kullanım
 
 Telefonu ADB Shell üzerinden kontrol edelim.
 ```adb devices```
