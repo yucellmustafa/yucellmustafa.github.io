@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ADB ile Android Sistem Uygulamalarını Silme (Rootsuz)
+title: ADB ile Android Sistem Uygulamalarını Silme Rootsuz
 description: Android telefonlarda yüklü gelen ve silinemeyen gereksiz uygulamaların bilgisayar aracılığıyla silinmesi
 summary: Android telefonlarda yüklü gelen ve silinemeyen gereksiz uygulamaların bilgisayar aracılığıyla silinmesi
 tags: android
