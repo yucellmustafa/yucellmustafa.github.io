@@ -103,9 +103,13 @@ Success yazısını görmüşseniz kaldırma başarılıdır :)
 
 
 Sildiğiniz uygulamaları kolayce yeniden yüklemek.
-```pm install-existing package-name```
+```
+pm install-existing package-name
+```
 
 Örneğin Google uygulamasını yeniden yükleyelim:
-```pm install-existing com.google.android.googlequicksearchbox```
+```
+pm install-existing com.google.android.googlequicksearchbox
+```
 
 Sonuna kadar okuduğunuz için teşekkürler :)
