@@ -3,7 +3,7 @@ layout: post
 title: DNS ile Reklam Engelleme
 description: DNS kullanarak android ve bilgisayarda programsız reklam engelleme
 summary: DNS kullanarak android ve bilgisayarda programsız reklam engelleme
-tags: other
+
 date: 2022-07-31 20:00
 comments: true
 minute: 5
