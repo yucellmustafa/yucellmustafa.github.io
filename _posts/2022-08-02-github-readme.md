@@ -115,7 +115,7 @@ Aşağıdaki örnekte img tagiyle sayfanın yarısına gif ekleyebilirsiniz.
 <img src="https://media.giphy.com/media/2nUnDhdX4CLjW/giphy.gif" alt="" align="right" width=50% height=50%>
 ```
 
-####Icon
+#### Icon
 Sosyal medya adreslerinizi, sitelerinizi ve diğer bağlantılarınızı yazılara linklemek yerine kolayca anlaşılacak iconlara linkleyerek güzel ve sade bir görüntü oluşturabilirsiniz. 
 
 Örnek site: [simpleicons.org](simpleicons.org)
