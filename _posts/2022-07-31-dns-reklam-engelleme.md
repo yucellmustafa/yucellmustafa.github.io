@@ -19,9 +19,9 @@ Not: Vodefone, DoT (DNS-over-TLS) engellediği için private DNS Vodafone ile ku
 
 **Kullanım:**
 
-**Telefon Ayarları > Diğer Bağlantılar veya Bağlantı Ayarları > Gizli DNS > Gizli DNS'i Yapılandır > dns.adguard.com**
+**Telefon Ayarları > Diğer Bağlantılar veya Bağlantı Ayarları > Gizli DNS > Gizli DNS'i Yapılandır**
 
-Aile için ve Filtresiz DNS:
+Deafult: `dns.adguard-dns.com`
 
 Aile: `family.adguard-dns.com`
 
@@ -35,9 +35,9 @@ Tarayıcılarda DoH (DNS-over-HTTPS) kullanarak tarayıcı reklamlarını engell
 
 **Kullanım:**
 
-**Chrome ayarlar > Gizlilik ve Güvenlik > Güvenli DNS kullan > Başka bir sağlayıcı seçin > https://dns.adguard-dns.com/dns-query**
+**Chrome ayarlar > Gizlilik ve Güvenlik > Güvenli DNS kullan > Başka bir sağlayıcı seçin**
 
-Aile için ve Filtresiz DNS:
+Default: `https://dns.adguard-dns.com/dns-query`
 
 Aile: `https://family.adguard-dns.com/dns-query`
 
