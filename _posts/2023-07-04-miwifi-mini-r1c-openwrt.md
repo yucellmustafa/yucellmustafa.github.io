@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Xiaomi Mi WiFi Mini R1C için OpenWRT Kurulum Rehberi
-description: Xiaomi Mi WiFi Mini R1C için OpenWRT Kurulum Rehberi
-summary: Xiaomi Mi WiFi Mini R1C için OpenWRT Kurulum Rehberi
+title: Mi WiFi Mini R1C için OpenWRT Kurulum Rehberi
+description: Mi WiFi Mini R1C için OpenWRT Kurulum Rehberi
+summary: Mi WiFi Mini R1C için OpenWRT Kurulum Rehberi
 date: 2023-07-04 01:20
 comments: true
 tags: openwrt
