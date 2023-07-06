@@ -75,7 +75,7 @@ Aşağıdaki programları önceden kuralım.
 - Firmware dosyasını flashtan cihaza aktaralım: `cp /extdisks/sda1/<file-name> /tmp/<file-name>`
   - *`<file-name>` kısmı yazılım dosyasının adıdır. Örneğin `openwrt-22.03.5-ramips-mt7620-xiaomi_miwifi-mini-squashfs-sysupgrade.bin`*
 
-- Kurulumu yapalım: `mtd -r write <file-name> OS1`
+- Kurulumu yapalım: `mtd -r write /tmp/<file-name> OS1`
   - *`<file-name>` kısmı yazılım dosyasının adıdır. Örneğin `openwrt-22.03.5-ramips-mt7620-xiaomi_miwifi-mini-squashfs-sysupgrade.bin`*
 
 - Mavi ışık sabitlendiğinde kurulum tamamlanmıştır. Eğer sabitlenmez ve mavi ışık yanıp yanıp sönmeye devam ederse cihazı kendimiz yeniden başlatalım.
