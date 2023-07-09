@@ -8,11 +8,11 @@ comments: true
 tags: openwrt
 minute: 7
 --- 
-# Xiaomi Mi WiFi Mini R1C için OpenWRT Kurulum Rehberi!
+# Mi WiFi Mini R1C için OpenWRT Kurulum Rehberi!
 
 ![thumbnail](https://github.com/yucellmustafa/openwrt_mi_mini_wifi_r1c/assets/49123562/f0709d50-0f31-4eea-9fb8-f898e9e0f3c7)
 
-Bu yöntem ile Windows üzerinde Xiaomi Mi WiFi Mini R1C routerımıza OpenWRT kurabileceksiniz.  
+Bu yöntem ile Windows üzerinde Mi WiFi Mini R1C routerımıza OpenWRT kurabileceksiniz.  
 
 **OpenWRT kurulumunda oluşabilecek tüm komplikasyonlar sizin sorumluluğunuzdadır.**  
 
