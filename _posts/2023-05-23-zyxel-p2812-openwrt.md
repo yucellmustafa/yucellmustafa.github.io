@@ -36,17 +36,19 @@ Bu yöntem ile Windows üzerinde ZyXEL P-2812HNU-F1 modeminize OpenWRT kurabilec
   <summary>ZyXEL P-2812HNU-F1</summary>
 
   <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/7fc65d77-1f57-4f8a-9003-6f398af3d8cc"/>
+  </details>
 
 - <details>
   <summary>Ethernet Kablosu</summary>
 
   <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/4a8732fd-f2fe-43d1-b53d-abbb5851714c"/>
+  </details>
 
 - <details>
   <summary>PL2303 USB TO TTL Kablo</summary>
 
   <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/30141ec2-75e7-428a-9db8-eed2b6bca5fc"/>
-
+  </details>
 
 # 💻 Gerekli Programlar
 Aşağıdaki programları önceden kuralım.
@@ -67,6 +69,7 @@ Aşağıdaki programları önceden kuralım.
   <summary>Dosyalara ait resim</summary>
 
   <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/37bb289e-9b1c-4370-b664-db8223f9da96"/>
+  </details>
 
 - <details>
   <summary>Windows Ağ ayarlarından Ethernet'imize statik ip atayalım</summary>
@@ -74,12 +77,13 @@ Aşağıdaki programları önceden kuralım.
   > Denetim Masası\Ağ ve Internet\Ağ Bağlantıları
 
   <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/fabd0c78-ce0d-43cf-aecd-32db26b4c642"/>
-
+  </details>
 
 - <details>
   <summary>Modemin içini açalım ve anten kablolarını dikkatlice çıkartıp kartı elimize alalım</summary>
 
   <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/95f29e74-a4ef-44fd-abe8-8c33c61f09f9"/>
+  </details>
 
 - <details>
   <summary>Kartın arka yüzündeki serial dişlerine PL2303 kablomuzu şekildeki gibi bağlayalım</summary>
@@ -89,7 +93,7 @@ Aşağıdaki programları önceden kuralım.
   (Tekli : Siyah) - Yeşil - Beyaz - (Kırmızıyı bağlama)
 
   <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/a533fd82-8392-434a-aaa9-7e51ed8b0c95"/>
-
+  </details>
 
 - Son olarak modemi ethernet kablosu ile LAN portundan bilgisayarımıza bağlayalım ve güç kablomuzu modeme takalım. **Ama modem kapalı durumda olsun.**
 
@@ -97,7 +101,7 @@ Aşağıdaki programları önceden kuralım.
   <summary>Son hali resimdeki gibi olmalıdır</summary>
 
   <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/83979089-e13b-4b2e-9322-97a7c31b59c8"/>
-
+  </details>
 
 
 # 🚀 OpenWRT Kurulumu
@@ -108,12 +112,13 @@ Aşağıdaki programları önceden kuralım.
   <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/53a575c2-8efe-4daf-b658-2d938128d737"/>
 
   <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/172624c2-6a6d-47e6-8a5f-facf3a83edfe"/>
+  </details>
 
 - <details>
   <summary>Şimdi iletken bir madde ile R17 yazan lehimli yeri kısa devre yaptırırken modemi güç tuşuna basarak çalıştıralım</summary>
 
   <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/9720016c-9f63-4631-a1ae-f7cc175b1ea5"/>
-
+  </details>
 
 
 - Modemi açtığımızda TeraTerm programında modemin UART moduna girdiğini gösteren alttaki yazıyı göreceğiz
@@ -135,6 +140,7 @@ Aşağıdaki programları önceden kuralım.
   <summary>Tftp programını açın aşağıdaki gibi ayarlayın uygulama altta beklesin</summary>
 
   <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/bab17f97-3ee2-4406-ad55-8e62d181328e"/>
+  </details>
 
 - TeraTerm programına aşağıdaki komutları sırayla girin:
   ```
@@ -151,7 +157,6 @@ Aşağıdaki programları önceden kuralım.
   <summary>XX:XX:XX:XX:XX:XX yazan yere modemin arka yüzündeki etikette yazan MAC adresini yazınız</summary>
 
   <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/542616e2-61ab-418d-a43b-1ca51752da03"/>
-
   </details>
 
   ```
@@ -195,14 +200,12 @@ Aşağıdaki programları önceden kuralım.
   <summary>WinSCP programı ile modemin ana dizinine giriş yapalım.</summary>
 
   <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/df4c4127-6850-45b7-9696-7b322a3a0ca9"/>
-
   </details>
 
   <details>
   <summary>/lib/firmware klasörünün içine RT3062.eeprom dosyasını sürükleyerek atalım</summary>
 
   <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/f31dec94-0536-4ffc-82ac-2c66fd10b2a4"/> 
-
   </details>
 
 - **VDSL** bağlantısı WinSCP programınan aynı şekilde **/etc/config/network** dosyasını açın. Aşağıda verdiğim satırdaki **dsl0** yazan satırı bulup **dsl0.35** olarak düzenleyin (diğer kısımlara dokunmayın):

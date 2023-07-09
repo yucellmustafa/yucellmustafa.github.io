@@ -31,6 +31,8 @@ Bu yöntem ile Windows üzerinde Mi Router 4A Gigabit cihazlarınızı brick old
   > Denetim Masası\Ağ ve Internet\Ağ Bağlantıları
 
   <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/a5a60c62-add2-4993-a13d-18f878c173a0"/>
+  
+  </details>
 
 - Son olarak routerı ethernet kablosu ile LAN portundan bilgisayarımıza bağlayalım ve güç kablomuzu routera takalım.
 
@@ -42,6 +44,8 @@ Bu yöntem ile Windows üzerinde Mi Router 4A Gigabit cihazlarınızı brick old
   (*IP Adresi farklı ise diğer internet bağlantılarınızı kapatın*)</summary>
 
   <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/43fdba17-fa67-4584-a811-43045f8f6c97"/>
+
+  </details>
 
 - Routerın güç bağlantısını keselim.
 
@@ -66,5 +70,5 @@ Bu yöntem ile Windows üzerinde Mi Router 4A Gigabit cihazlarınızı brick old
 # 🗃️ Kaynaklar
 - [Hoddys Guides](https://hoddysguides.com/xiaomi-debrick-tools-all/)
 
------------
+---
 🎀 Rehberimizi okuduğunuz için teşekkür ederiz!  

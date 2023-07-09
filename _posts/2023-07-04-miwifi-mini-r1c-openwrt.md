@@ -89,5 +89,6 @@ Aşağıdaki programları önceden kuralım.
 
 # 🗃️ Kaynaklar
 - [OpenWRT Wiki](https://openwrt.org/toh/xiaomi/miwifi_mini)
------------
+
+---
 🎀 Rehberimizi okuduğunuz için teşekkür ederiz!  
