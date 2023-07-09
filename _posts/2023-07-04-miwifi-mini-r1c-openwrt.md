@@ -10,7 +10,7 @@ minute: 7
 --- 
 # Mi WiFi Mini R1C için OpenWRT Kurulum Rehberi!
 
-![thumbnail](https://github.com/yucellmustafa/openwrt_mi_mini_wifi_r1c/assets/49123562/f0709d50-0f31-4eea-9fb8-f898e9e0f3c7)
+![thumbnail](https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/8a8a2b56-d9a9-4d09-8699-b9b7ed11cd34)
 
 Bu yöntem ile Windows üzerinde Mi WiFi Mini R1C routerımıza OpenWRT kurabileceksiniz.  
 
@@ -62,7 +62,7 @@ Aşağıdaki programları önceden kuralım.
 
 - "TeraTerm" programını açın ve şu şekilde cihaza bağlanın
 
-  ![teraterm](https://github.com/yucellmustafa/openwrt-zyxel-p2812hnu-f1/assets/49123562/1a19a762-c0b9-4720-b243-6da46b747dfa)
+  ![teraterm](https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/01b8e2d8-06d5-4f0f-b599-d8e9f2d53b6f)
 
 - Giriş için alttaki bilgileri girelim
   

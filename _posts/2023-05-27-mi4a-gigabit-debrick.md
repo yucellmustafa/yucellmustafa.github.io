@@ -9,7 +9,7 @@ tags: openwrt
 minute: 6
 --- 
 
-![thumbnail](https://github.com/yucellmustafa/mi-router-4a-debrick/assets/49123562/0dab322d-3b36-40b8-9e96-8a8eca631d02)
+![thumbnail](https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/d5e57e4d-06ad-4654-a26c-88389efa36aa)
 
 Bu yöntem ile Windows üzerinde Mi Router 4A Gigabit cihazlarınızı brick olduğunda kurtarabilecek veya stock yazılımına dönebileceksiniz.  
 
@@ -30,7 +30,7 @@ Bu yöntem ile Windows üzerinde Mi Router 4A Gigabit cihazlarınızı brick old
 
   > Denetim Masası\Ağ ve Internet\Ağ Bağlantıları
 
-  <img src="https://github.com/yucellmustafa/openwrt-zyxel-p2812hnu-f1/assets/49123562/e24e3dac-4e75-437e-abcd-fcd843ec8f67"/>
+  <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/a5a60c62-add2-4993-a13d-18f878c173a0"/>
 
 - Son olarak routerı ethernet kablosu ile LAN portundan bilgisayarımıza bağlayalım ve güç kablomuzu routera takalım.
 
@@ -41,7 +41,7 @@ Bu yöntem ile Windows üzerinde Mi Router 4A Gigabit cihazlarınızı brick old
   
   (*IP Adresi farklı ise diğer internet bağlantılarınızı kapatın*)</summary>
 
-  <img src="https://github.com/yucellmustafa/openwrt-zyxel-p2812hnu-f1/assets/49123562/16a44a96-4a88-48a3-9f8d-02cdf369fa00"/>
+  <img src="https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/43fdba17-fa67-4584-a811-43045f8f6c97"/>
 
 - Routerın güç bağlantısını keselim.
 
