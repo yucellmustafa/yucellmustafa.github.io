@@ -22,8 +22,8 @@ Bu yöntem ile Windows üzerinde Mi Router 4A Gigabit cihazlarınızı brick old
 # ✨ Başlarken
 
 - Kuruluma başlamadan önce routerımıza ait dosyayı indirelim ve masaüstüne çıkartalım.
-    - İngilizce Sürüm: [4A-GIGA-ENG.zip](https://github.com/yucellmustafa/mi-router-4a-debrick/releases/download/1.0/4A-GIGA-ENG.zip)
-    - Çin Sürüm: [4A-GIGA-CN.zip](https://github.com/yucellmustafa/mi-router-4a-debrick/releases/download/1.0/4A-GIGA-CN.zip)
+    - İngilizce Sürüm: [4A-GIGA-ENG.zip](https://github.com/yucellmustafa/yucellmustafa.github.io/releases/download/v1.1/4A-GIGA-ENG.zip)
+    - Çin Sürüm: [4A-GIGA-CN.zip](https://github.com/yucellmustafa/yucellmustafa.github.io/releases/download/v1.1/4A-GIGA-CN.zip)
 
 - <details>
   <summary>Windows Ağ ayarlarından Ethernet ip ayarlarını yapalım</summary>

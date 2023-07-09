@@ -38,7 +38,7 @@ Aşağıdaki programları önceden kuralım.
 - Firmware - [sysupgrade](https://firmware-selector.openwrt.org/?version=22.03.5&target=ramips%2Fmt7620&id=xiaomi_miwifi-mini) olanı indirelim.
   - *Bu cihaza kuracağımız yazılım dosyasıdır. İsteğe bağlı sürümü seçip sysupgrade dosyasını indirelim.*
 
-- TeraTerm - [İndir](https://github.com/yucellmustafa/openwrt-zyxel-p2812hnu-f1/releases/download/1.0/2-teraterm-4.106.exe)
+- TeraTerm - [İndir](https://github.com/yucellmustafa/yucellmustafa.github.io/releases/download/v1.0/2-Teraterm-4.106.exe)
 
 # 🚀 OpenWRT Kurulumu
 

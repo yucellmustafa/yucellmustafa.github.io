@@ -51,17 +51,17 @@ Bu yöntem ile Windows üzerinde ZyXEL P-2812HNU-F1 modeminize OpenWRT kurabilec
 # 💻 Gerekli Programlar
 Aşağıdaki programları önceden kuralım.
 
-- PL2303 Driver - [İndir](https://github.com/yucellmustafa/openwrt-zyxel-p2812hnu-f1/releases/download/1.0/1-PL2303_Driver.exe)
+- PL2303 Driver - [İndir](https://github.com/yucellmustafa/yucellmustafa.github.io/releases/download/v1.0/1-PL2303_Driver.exe)
 
-- TeraTerm - [İndir](https://github.com/yucellmustafa/openwrt-zyxel-p2812hnu-f1/releases/download/1.0/2-teraterm-4.106.exe)
+- TeraTerm - [İndir](https://github.com/yucellmustafa/yucellmustafa.github.io/releases/download/v1.0/2-Teraterm-4.106.exe)
 
-- Tftpd64 - [İndir](https://github.com/yucellmustafa/openwrt-zyxel-p2812hnu-f1/releases/download/1.0/3-Tftpd64-4.64.exe)
+- Tftpd64 - [İndir](https://github.com/yucellmustafa/yucellmustafa.github.io/releases/download/v1.0/3-Tftpd64-4.64.exe)
 
-- WinSCP - [İndir](https://github.com/yucellmustafa/openwrt-zyxel-p2812hnu-f1/releases/download/1.0/4-WinSCP-5.21.7.exe)
+- WinSCP - [İndir](https://github.com/yucellmustafa/yucellmustafa.github.io/releases/download/v1.0/4-WinSCP-5.21.7.exe)
 
 # ✨ Başlarken
 
-- Kuruluma başlamadan önce [OpenWRT.zip](https://github.com/yucellmustafa/openwrt-zyxel-p2812hnu-f1/releases/download/1.0/openwrt.rar) dosyamızı indirelim ve masaüstüne çıkartalım.
+- Kuruluma başlamadan önce [OpenWRT.zip](https://github.com/yucellmustafa/yucellmustafa.github.io/releases/download/v1.0/openwrt.rar) dosyamızı indirelim ve masaüstüne çıkartalım.
 
 - <details>
   <summary>Dosyalara ait resim</summary>
