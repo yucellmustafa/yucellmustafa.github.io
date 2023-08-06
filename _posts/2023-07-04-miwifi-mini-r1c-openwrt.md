@@ -8,7 +8,6 @@ comments: true
 tags: openwrt
 minute: 7
 --- 
-# Mi WiFi Mini R1C için OpenWRT Kurulum Rehberi!
 
 ![thumbnail](https://github.com/yucellmustafa/yucellmustafa.github.io/assets/49123562/8a8a2b56-d9a9-4d09-8699-b9b7ed11cd34)
 
