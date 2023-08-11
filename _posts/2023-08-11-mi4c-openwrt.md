@@ -18,7 +18,7 @@ Bu yöntem ile Windows üzerinde Mi Router 4C cihaza OpenWRT kurabileceksiniz.
 **Rehberimizi kaynak göstererek paylaşmanız önemle rica olunur.** 🙏
 
 <p align="left">
-  <a href=""><img src="https://img.shields.io/badge/Youtube-Kurulum Video Rehberi-blue?logo=youtube&logoColor=white"/></a>
+  <a href="https://youtu.be/kd4OVsMiQYE"><img src="https://img.shields.io/badge/Youtube-Kurulum Video Rehberi-blue?logo=youtube&logoColor=white"/></a>
 </p>
   
 
