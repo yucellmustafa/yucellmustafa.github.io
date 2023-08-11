@@ -3,7 +3,7 @@ layout: post
 title: Mi Router 4C için OpenWRT Kurulum Rehberi
 description: Mi Router 4C için OpenWRT Kurulum Rehberi
 summary: Mi Router 4C için OpenWRT Kurulum Rehberi
-date: 2023-07-04 01:20
+date: 2023-08-11 11:15
 comments: true
 tags: openwrt
 minute: 7
